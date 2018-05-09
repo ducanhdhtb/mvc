@@ -1,5 +1,6 @@
 <?php
-include_once  develop sua no day
+
+include_once('model/library/connect.php');
 switch($_GET['controller']){
 	case 'user': include_once('controllers/user.php');
 	break;
