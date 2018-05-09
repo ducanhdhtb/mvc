@@ -1,5 +1,5 @@
 <?php
-include_once('library/connect.php');
+include_once('bi xoa boi nguoi devlop a
 switch($_GET['controller']){
 	case 'user': include_once('controllers/user.php');
 	break;
